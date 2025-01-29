@@ -9,6 +9,6 @@ public class LambdaHandler implements RequestHandler<Map<String, Object>, String
     @Override
     public String handleRequest(Map<String, Object> input, Context context) {
         // Ensure the return value is a String
-        return "Lambda executed successfully with input: " + input.toString();
+        return "Lambda executed successfully by Anisha and Shwetha: " + input.toString();
     }
 }
